@@ -16,7 +16,7 @@ if 'is_logged_in' not in st.session_state:
 
 # Function to simulate user login
 def login(username, password):
-    if username == "miew" and password == "miew":
+    if username == "123" and password == "123":
         st.session_state.is_logged_in = True
         return True
     return False
